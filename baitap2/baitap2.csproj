@@ -159,6 +159,7 @@
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\DemoDbConText.cs" />
     <Compile Include="Models\Khachhang.cs" />
+    <Compile Include="Models\SangCuto.cs" />
     <Compile Include="Models\ShopGiay.cs" />
     <Compile Include="Models\ShopPet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
