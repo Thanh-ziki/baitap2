@@ -1,0 +1,48 @@
+﻿@model IEnumerable<baitap2.Models.Khachhang>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Idkhachhang)
+        <th>
+            @Html.DisplayNameFor(model => model.Tenkhachhang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quequan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tuoi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tenkhachhang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quequan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tuoi)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Idkhachhang }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Idkhachhang }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Idkhachhang })
+        </td>
+    </tr>
+}
+
+</table>

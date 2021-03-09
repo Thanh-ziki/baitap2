@@ -1,0 +1,43 @@
+﻿@model baitap2.Models.ShopGiay
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ShopGiay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tenkhachhang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tenkhachhang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDGiay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDGiay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiGiay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiGiay)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IDKhachhang }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
