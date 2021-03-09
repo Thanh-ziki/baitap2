@@ -155,11 +155,14 @@
     <Compile Include="Migrations\202103090438084_Create_Table_SHopGiays.Designer.cs">
       <DependentUpon>202103090438084_Create_Table_SHopGiays.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103091114125_Alter_Table_ShopGiay.cs" />
+    <Compile Include="Migrations\202103091114125_Alter_Table_ShopGiay.Designer.cs">
+      <DependentUpon>202103091114125_Alter_Table_ShopGiay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\DemoDbConText.cs" />
     <Compile Include="Models\Khachhang.cs" />
-    <Compile Include="Models\SangCuto.cs" />
     <Compile Include="Models\ShopGiay.cs" />
     <Compile Include="Models\ShopPet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -247,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103090438084_Create_Table_SHopGiays.resx">
       <DependentUpon>202103090438084_Create_Table_SHopGiays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103091114125_Alter_Table_ShopGiay.resx">
+      <DependentUpon>202103091114125_Alter_Table_ShopGiay.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

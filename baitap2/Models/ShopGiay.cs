@@ -12,6 +12,7 @@ namespace baitap2.Models
         public string Tenkhachhang { get; set; }
         public string IDGiay { get; set; }
         public string LoaiGiay { get; set; }
+        public int SizeGiay { get; set; }
 
     }
 }
