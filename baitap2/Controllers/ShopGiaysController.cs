@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using baitap2.Models;
 
+
 namespace baitap2.Controllers
 {
     public class ShopGiaysController : Controller
